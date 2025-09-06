@@ -8,55 +8,41 @@ Built with **MERN stack + Gemini API**, it features user authentication, questio
 
 ## 📂 Project Structure  
 
-interview-pre-question-app/
+interview-pre-question-app
+├── backend
+│   ├── .env
+│   ├── package.json
+│   ├── server.js                  # Backend entry point
+│   ├── config
+│   │   └── db.js                   # Database configuration
+│   ├── Controllers
+│   │   ├── authController.js       # Auth logic
+│   │   └── questionController.js   # Question logic
+│   ├── middleware
+│   │   └── authMiddleware.js       # JWT middleware
+│   ├── models
+│   │   ├── Question.js             # Question schema
+│   │   └── User.js                 # User schema
+│   ├── routes
+│   │   ├── authRoutes.js           # Auth routes
+│   │   └── questionRoutes.js       # Question routes
+│   └── utils
+│       └── geminiService.js        # Gemini API service
 │
-├── backend/                             # Backend (Node.js + Express)
-│   ├── .env                             # Environment variables
-│   ├── package.json                     # Backend dependencies
-│   ├── server.js                        # Backend entry point
-│   │
-│   ├── config/                          # Database configuration
-│   │   └── db.js
-│   │
-│   ├── Controllers/                     # Business logic controllers
-│   │   ├── authController.js
-│   │   └── questionController.js
-│   │
-│   ├── middleware/                      # Middleware (auth, validation, etc.)
-│   │   └── authMiddleware.js
-│   │
-│   ├── models/                          # Mongoose models
-│   │   ├── Question.js
-│   │   └── User.js
-│   │
-│   ├── routes/                          # API routes
-│   │   ├── authRoutes.js
-│   │   └── questionRoutes.js
-│   │
-│   └── utils/                           # Utility services/helpers
-│       └── geminiService.js
-│
-├── frontend/                            # Frontend (React + Vite + Tailwind)
-│   ├── package.json                     # Frontend dependencies
-│   ├── vite.config.js                   # Vite configuration
-│   ├── index.html                       # Entry HTML file
-│   │
-│   ├── public/                          # Static assets
-│   │
-│   └── src/                             # React source code
-│       ├── App.jsx                      # Frontend entry point
-│       ├── Homepage1.jsx
-│       ├── Generater.jsx
-│       │
-│       ├── api/                         # API integration
-│       │
-│       ├── components/                  # Reusable UI components
-│       │
-│       ├── context/                     # Global state (Context API)
-│       │
-│       ├── pages/                       # Page-level components
-│       │
-│       └── styles/                      # Tailwind CSS custom styles
+└── frontend
+    ├── package.json
+    ├── vite.config.js
+    ├── index.html
+    ├── public
+    └── src
+        ├── App.jsx                 # Frontend entry point
+        ├── Homepage1.jsx
+        ├── Generater.jsx
+        ├── api                     # API integration
+        ├── components              # Reusable UI components
+        ├── context                 # Global state
+        ├── pages                   # Page components
+        └── styles                  # Tailwind CSS styles
 
 
 
