@@ -121,4 +121,35 @@ Authentication: JWT (JSON Web Tokens)
 🎯 Smart difficulty adjustment (adaptive learning)
 
 ✨ Made with ❤️ by Shivram
+```
+##  Screenshot
+
+<img width="1920" height="1200" alt="Screenshot (3447)" src="https://github.com/user-attachments/assets/d9147515-2327-4d3b-85e1-54f4c1001d35" />
+
+<img width="1920" height="1200" alt="Screenshot (3448)" src="https://github.com/user-attachments/assets/6758b84b-3d24-4973-a546-43638410d67f" />
+<img width="1920" height="1200" alt="Screenshot (3449)" src="https://github.com/user-attachments/assets/58fc7fb8-eb2b-44e7-acd4-74fc1737177f" />
+
+<img width="1920" height="1200" alt="Screenshot (3450)" src="https://github.com/user-attachments/assets/d7085a4b-f886-4385-ba2a-f846c93ae5b2" />
+
+<img width="1920" height="1200" alt="Screenshot (3451)" src="https://github.com/user-attachments/assets/8e061423-4ed2-4590-b240-51785cd0a15a" />
+
+
+<img width="1920" height="1200" alt="Screenshot (3452)" src="https://github.com/user-attachments/assets/2e44f685-23fa-448f-a0cc-9f58aa24b836" />
+<img width="1920" height="1200" alt="Screenshot (3453)" src="https://github.com/user-attachments/assets/f6a9d36e-4ed0-4372-820d-48131cc12c27" />
+
+<img width="1920" height="1200" alt="Screenshot (3454)" src="https://github.com/user-attachments/assets/ea45e5a3-45aa-4a65-8d51-9c0a9ed8120a" />
+
+<img width="1920" height="1200" alt="Screenshot (3455)" src="https://github.com/user-attachments/assets/95cc4f2e-a455-42bf-bbca-506b0a81375b" />
+
+
+<img width="1920" height="1200" alt="Screenshot (3456)" src="https://github.com/user-attachments/assets/8417b13a-d3ab-463b-8b06-b4629fa65788" />
+
+
+
+
+
+
+
+
+
 
