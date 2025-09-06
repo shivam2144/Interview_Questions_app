@@ -9,43 +9,56 @@ Built with **MERN stack + Gemini API**, it features user authentication, questio
 ## 📂 Project Structure  
 
 interview-pre-question-app/
-│── backend/
-│ ├── .env
-│ ├── package.json
-│ ├── server.js # Backend entry point
-│ ├── config/ # Database configuration
-│ │ └── db.js
-│ ├── Controllers/ # Business logic
-│ │ ├── authController.js
-│ │ └── questionController.js
-│ ├── middleware/ # Authentication middleware
-│ │ └── authMiddleware.js
-│ ├── models/ # MongoDB models
-│ │ ├── Question.js
-│ │ └── User.js
-│ ├── routes/ # API routes
-│ │ ├── authRoutes.js
-│ │ └── questionRoutes.js
-│ └── utils/ # Utility services
-│ └── geminiService.js
 │
-│── frontend/
-│ ├── package.json
-│ ├── vite.config.js
-│ ├── index.html
-│ ├── public/
-│ └── src/
-│ ├── App.jsx # Frontend entry point
-│ ├── Homepage1.jsx
-│ ├── Generater.jsx
-│ ├── api/ # API integration
-│ ├── components/ # Reusable UI components
-│ ├── context/ # Global state (Context API)
-│ ├── pages/ # Page components
-│ └── styles/ # Tailwind CSS styles
+├── backend/                             # Backend (Node.js + Express)
+│   ├── .env                             # Environment variables
+│   ├── package.json                     # Backend dependencies
+│   ├── server.js                        # Backend entry point
+│   │
+│   ├── config/                          # Database configuration
+│   │   └── db.js
+│   │
+│   ├── Controllers/                     # Business logic controllers
+│   │   ├── authController.js
+│   │   └── questionController.js
+│   │
+│   ├── middleware/                      # Middleware (auth, validation, etc.)
+│   │   └── authMiddleware.js
+│   │
+│   ├── models/                          # Mongoose models
+│   │   ├── Question.js
+│   │   └── User.js
+│   │
+│   ├── routes/                          # API routes
+│   │   ├── authRoutes.js
+│   │   └── questionRoutes.js
+│   │
+│   └── utils/                           # Utility services/helpers
+│       └── geminiService.js
+│
+├── frontend/                            # Frontend (React + Vite + Tailwind)
+│   ├── package.json                     # Frontend dependencies
+│   ├── vite.config.js                   # Vite configuration
+│   ├── index.html                       # Entry HTML file
+│   │
+│   ├── public/                          # Static assets
+│   │
+│   └── src/                             # React source code
+│       ├── App.jsx                      # Frontend entry point
+│       ├── Homepage1.jsx
+│       ├── Generater.jsx
+│       │
+│       ├── api/                         # API integration
+│       │
+│       ├── components/                  # Reusable UI components
+│       │
+│       ├── context/                     # Global state (Context API)
+│       │
+│       ├── pages/                       # Page-level components
+│       │
+│       └── styles/                      # Tailwind CSS custom styles
 
-yaml
-Copy code
+
 
 ---
 
@@ -65,36 +78,32 @@ Copy code
 
 ## ⚡ Getting Started  
 
-### 🔹 Backend Setup  
+###  🔹 Frontend Setup  And 🔹 Backend Setup  
 
 Navigate to the backend folder:  
-```sh
+```
 cd backend
 npm install
 Create a .env file:
 
 env
-Copy code
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key
 PORT=5000
 Run the backend server:
 
-sh
-Copy code
+
 npm run dev
 🔹 Frontend Setup
 Navigate to the frontend folder:
 
-sh
-Copy code
+
 cd frontend
 npm install
 Start the frontend dev server:
 
-sh
-Copy code
+
 npm run dev
 Open in browser → http://localhost:5173
 
