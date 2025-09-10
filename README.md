@@ -47,7 +47,7 @@ interview-pre-question-app
 
 
 
----
+
 
 ## ✨ Features  
 
@@ -68,7 +68,7 @@ interview-pre-question-app
 ###  🔹 Frontend Setup  And 🔹 Backend Setup  
 
 Navigate to the backend folder:  
-```
+
 cd backend
 npm install
 Create a .env file:
