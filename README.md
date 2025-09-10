@@ -8,9 +8,10 @@ Built with **MERN stack + Gemini API**, it features user authentication, questio
 
 ## 📂 Project Structure  
 
+```plaintext
 interview-pre-question-app
-├── backend                    ##
-│   ├── .env                   ##
+├── backend                    
+│   ├── .env                   
 │   ├── package.json
 │   ├── server.js                  # Backend entry point
 │   ├── config
